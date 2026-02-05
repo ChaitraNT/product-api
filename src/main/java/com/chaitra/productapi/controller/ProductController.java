@@ -38,7 +38,7 @@ public class ProductController {
 		
 		Product result = service.getById(id);
 		if(result == null) {
-			return "Product ot found";
+			return "Product not found";
 		}
 		return result;
 	}
