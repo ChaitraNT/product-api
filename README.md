@@ -54,7 +54,7 @@ Validation Rules
 i. Product name must not be empty
 ii. Price must be greater than zero
 
-2. Get Product by ID
+### 2. Get Product by ID
 -Endpoint: GET /products/{id}
 -Description: Fetches a product using its ID
 
