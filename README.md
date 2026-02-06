@@ -41,7 +41,7 @@ http://localhost:8080
 
 #### Request Body (JSON)
 
-```json
+json
 {
 "id": 1,
 "name": "Laptop",
@@ -53,3 +53,18 @@ http://localhost:8080
 Validation Rules
 i. Product name must not be empty
 ii. Price must be greater than zero
+
+2. Get Product by ID
+-Endpoint: GET /products/{id}
+-Description: Fetches a product using its ID
+
+Example: GET /products/1
+
+Data Storage
+-Products are stored in an ArrayList
+-No database is used
+-Data will be lost when the application restarts
+
+Notes
+
+This project is built for learning and demonstration purposes and follows a simple layered architecture using Controller and Service classes.
